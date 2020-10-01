@@ -1,21 +1,23 @@
 {
-    "name": "@hayoung-lib/core",  
-    "version": "0.0.1", 
-    "description": "Core styles & components", 
-    "main": "index.js", 
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1" 
-    },
-    "repository": { 
-      "type": "git", 
-      "url": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library" 
-    },
-    "engines": {
-      "node": ">=4.0.0" 
-    },
-    "keywords": ["util"], 
-    "author": "Hayoung", 
-    "license": "MIT", 
-    "bugs": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library", 
-    "homepage": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library" 
-  }
+  "name": "@hayoung-lib/core",
+  "version": "0.0.2",
+  "description": "Core styles & components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "Hayoung",
+  "license": "MIT",
+  "bugs": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library",
+  "homepage": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library"
+}
