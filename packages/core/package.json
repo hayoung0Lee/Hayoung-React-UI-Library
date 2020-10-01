@@ -1,6 +1,6 @@
 {
   "name": "@hayoung-lib/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Core styles & components",
   "main": "index.js",
   "scripts": {
