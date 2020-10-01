@@ -1,6 +1,6 @@
 {
-  "name": "@hayoung-lib/datetime",
-  "version": "0.0.7",
+  "name": "hayoung-lib-datetime",
+  "version": "0.0.1",
   "description": "Components for interacting with dates and times",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,5 @@
   "license": "MIT",
   "bugs": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library",
   "homepage": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library",
-  "gitHead": "1d23fcb91b3be450bb5799d529cd438c50ba407e"
+  "gitHead": "688c1906345ded7027af45230c8bb6f713ef7a12"
 }
