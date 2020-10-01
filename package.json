@@ -2,6 +2,7 @@
     "name": "hayoung-lib-monorepo",
     "version": "0.0.5",
     "description": "A React UI toolkit for the web.",
+    "private": true,
     "workspaces": [
         "packages/*"
     ],
