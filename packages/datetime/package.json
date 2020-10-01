@@ -1,6 +1,6 @@
 {
   "name": "hayoung-lib-datetime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Components for interacting with dates and times",
   "main": "index.js",
   "scripts": {
