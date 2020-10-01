@@ -4,5 +4,8 @@
     "version": "independent",
     "packages": [
         "packages/*"
-    ]
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
 }
