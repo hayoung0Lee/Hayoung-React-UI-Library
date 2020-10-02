@@ -122,3 +122,29 @@ export const a = () => {
   ![라이브러리에서 함수 불러온 결과](../assets/day1-4.png)
 
 
+8. .npmignore 파일 사용법
+npmignore파일이 없이 publish를 하면 
+`npm install hayoung-lib --save` 
+했을 때 node_modules 폴더 내부에 아래와 같은 폴더구조가 생성된다. 
+
+```
+|- hayoung-lib
+  |- assets
+  |- diary
+  |- index.js
+  |- LICENSE
+  |- package.json
+  |- README.md
+```
+
+이때 assests와 diary는 사실 나만 쓰는거고, 내가 만든 패키지를 다운로드 받는 사용자에게는 필요가 없다. [npmignore 파일 문서](http://npm.github.io/publishing-pkgs-docs/publishing/the-npmignore-file.html) 
+이렇듯 패키지에서 빼고 싶은 파일을 .npmignore 파일에 써준다. 나의 경우 assets, diary 폴더와 그 하위 모든 내용이 필요없기 때문에
+
+```
+//.npmignore
+assets/*
+diary/*
+```
+
+실제 패키지를 다운로드 받으면 아래와 같은 폴더 구조를 확인할 수 있다. 
+![패키지 다운로드 받은 후](../assets/day1-5.png)
