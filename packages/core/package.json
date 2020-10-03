@@ -1,0 +1,30 @@
+{
+  "name": "hayoung-lib-core",
+  "version": "1.0.0",
+  "description": "core",
+  "keywords": [
+    "javascript"
+  ],
+  "author": "hayoung0Lee <hayoung0.lee@gmail.com>",
+  "homepage": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library#readme",
+  "license": "MIT",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayoung0Lee/Hayoung-React-UI-Library.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library/issues"
+  },
+  "gitHead": "5733479230cf506b572c6d16290d660563810004"
+}

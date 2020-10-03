@@ -15,6 +15,8 @@ _coming soon_
 [2] [개발 2회차 공부한 내용 정리](./diary/DAY2.md) 
 - monorepo에 대해서 이해해보려고 노력하고, lerna사용방법에 대해서도 이해해보려고 노력하면서 찾은 자료들이 정리되어있음. 앞으로 npm과 yarn 의 차이에 대해서 더 공부하고, package.json의 구성 및 monorepo 형식으로 프로젝트를 구성하는 방법에 대해서 공부하면서 자료를 정리할 계획. 
 
+[3] [개발 3회차 공부한 내용 정리](./diary/DAY3.md) 
+- npm과 yarn에 대해서 좀더 공부하고, eslint와 prettier에 대해서 개념다잡고, 실제로 core와 datetime폴더 구성해보기(eslint, prettier같은 설정 제외하고)
 
 ## memo
 package_backup.json, index.js, .npmignore파일은 초기에 hayoung-lib라는 이름으로 이 폴더 전체를 패키지화해서 올렸을때 사용한 파일이다. 이후 blueprint js처럼 monorepo 형태로 관리하게 되면서 사용하지 않을 파일이기는 하지만 _인생은 모르는 일이니_ 지우지 않고 남겨두었다.
