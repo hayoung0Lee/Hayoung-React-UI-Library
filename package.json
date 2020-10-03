@@ -1,21 +1,13 @@
 {
-    "name": "hayoung-lib",  
-    "version": "0.0.6", 
-    "description": "dom script library", 
-    "main": "index.js", 
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1" 
-    },
-    "repository": { 
-      "type": "git", 
-      "url": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library" 
-    },
-    "engines": {
-      "node": ">=4.0.0" 
-    },
-    "keywords": ["util"], 
-    "author": "Hayoung", 
-    "license": "MIT", 
-    "bugs": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library", 
-    "homepage": "https://github.com/hayoung0Lee/Hayoung-React-UI-Library" 
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "lerna": "^3.22.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
+}
