@@ -6,8 +6,7 @@
 4. prettier이란? - 이것도 쓰긴쓰는데 이게 뭐냐!! 하면 뭔지 잘모르겠는 느낌
 
 ### 프로젝트 목표
-core와 datetime 구성 형태 카피해보기(디펜던시가 있든 없든 한번 해보기)<br/>
-core, datetime 에서 기능 각각 하나씩 구현해보기
+core 형태 카피해보기(디펜던시가 있든 없든 한번 해보기)<br/>
 
 
 ### npm vs yarn
@@ -42,3 +41,18 @@ ESLint is a tool for identifying and reporting on patterns found in ECMAScript/J
 `eslint는 오류를 잡아주지만 자동으로 변경해주는 데 한계가 있고,
 prettier는 자동으로 변경해주는 부분이 eslint보다 많지만 코드 품질을 잡아주진 않습니다.
 그래서 각각의 미진한 점들을 보완하여 사용합니다.` from [here](https://velog.io/@susu1991/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%EC%8B%9C%EB%A6%AC%EC%A6%88-prettier)
+
+
+### core 폴더 만들기
+1. [튜토리얼](https://kdydesign.github.io/2020/08/27/mono-repo-lerna-example.html) 를 참고해서 lerna create core를 통해 폴더를 생성했다. <br/>
+
+
+2. core.js에 간단한 함수 하나를 선언했다. <br/>
+![core.js](../assets/day3-1.png)
+
+3. lerna publish를 통해서 패키지를 npm registry에 올렸다. <br/>
+4. react app 등에서 설치한다. <br/>
+5. app에서 사용<br/>
+![app에서 사용](../assets/day3-2.png)
+6. 화면에서 결과물 <br/>
+![화면에서 결과물](../assets/day3-3.png)
